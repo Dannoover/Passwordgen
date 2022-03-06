@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Password Generator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<link rel="icon" type="image/x-icon" href="icon.ico">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Password Generator</h1> 
+		<div class="div_password">
+			<input type="text" class="password" readonly id="password">
+			<svg class="icon"xmlns="http://www.w3.org/2000/svg" id="copy" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+			</svg>
+		</div>
+		<div class="options">
+			<ul>
+				<li>Password length 
+					<select name="" id="length" class="select">
+						<option value="8">8</option>
+						<option value="16">16</option>
+						<option value="24">24</option>
+						<option value="32">32</option>
+					</select>
+				</li> 
+				<li>Include uppercase letters <input class="checkbox" id="checkbox1" type="checkbox"></li> 
+				<li>Include lowercase letters <input class="checkbox" id="checkbox2" type="checkbox"></li>
+				<li>Include numbers <input class="checkbox" id="checkbox3" type="checkbox"></li> 
+				<li>Include symbols <input class="checkbox" id="checkbox4" type="checkbox"> </li>
+			</ul>
+			<div class="div_button">
+				<input type="button" onclick="button()" class="button" value="Generate password">
+			</div>
+		</div>
+		
+		<div class="copiado" id="copiado"></div>
+		
+		<div class="creditos">
+				<a href="https://twitter.com/Danovertt" class="creditos" target="_blank"> Made by: Danover#8841 </a>
+		</div>
+	</div>
+</body>
+</html>

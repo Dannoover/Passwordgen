@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	user-select: none
+}
+
+.icon{
+	width: 30px;
+	vertical-align: middle;
+	line-height: 40px;
+	border: 2px solid #2D4F6F;
+	border-radius: 20px;
+	background: rgba(66, 107, 146, 0.6);
+	margin: 4px 0px 4px 2px;
+	cursor:pointer;
+}
+body{
+	background: #358DDF;
+	background: -webkit-linear-gradient(bottom right, #358DDF, #7E2FB1);
+	background: -moz-linear-gradient(bottom right, #358DDF, #7E2FB1);
+	background: linear-gradient(to top left, #358DDF, #7E2FB1);
+	min-height: 100vh;
+	font-family: 'Lato', sans-serif;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+	color: #FFF;
+}
+.container{
+	background: rgba(89, 136, 180, 0.6);
+	padding: 1rem 1rem 0px 1rem;
+	border-radius: 25px;
+	border: 2px solid #30516F;
+	margin-bottom: 0px;
+}
+h1{
+	font-size: 3rem;
+	font-weight: normal;
+}
+ul li{
+	list-style: none;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	margin: 3px 0px 3px 0px;
+}
+
+.div_password{
+	background: #426B92;
+	margin: 10px 80px 10px 80px;
+	line-height: 40px;
+	border: 2px solid #2D4F6F;
+	border-radius: 25px;
+	align-items: center;
+	justify-content: center;
+	display:flex;
+	
+	
+}
+
+.select{
+
+	width: 2.5rem;
+
+}
+
+.checkbox, .select{
+	vertical-align: middle;
+	outline: none;
+	float: right;
+	margin-right: 1rem;
+	
+}
+
+.password{
+	width:200px;
+	height:22px;
+	border: 0px;
+	outline: none;
+	background: #345370;
+	border: 1px solid #2C4760;
+	border-radius: 10px;
+	margin: 4px 0px 4px 0px;
+	user-select: text;
+	cursor: default;
+	font-size:12px;
+	color:white;
+
+}
+
+.options{
+	align-items: right;
+	justify-content: right;
+}
+
+.button {
+  background: #426B92;
+  border: 2px solid #2D4F6F;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+.div_button{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.button:hover{
+	/* Created with https://www.css-gradient.com */
+	background: #31597E;
+}
+
+.button:active{
+	background: #25496B;
+}
+
+#copiado{
+	opacity: 0.5;
+	font-size: 10px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.creditos{
+	align-items: right;
+	justify-content: right;
+	display: flex;
+	margin-bottom: 2px;
+	margin-top: 3px;
+	font-size: 12px;
+	text-decoration: underline;
+	color: white;
+}
